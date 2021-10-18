@@ -13,7 +13,7 @@ const me = {
   firstName: 'Joe',
   lastName: 'Allen',
   hasSiblings: true,
-  shoeCount: 20,
+  shoeCount: 10,
   favThreeFoods: ['bread', 'soup', 'ice cream'],
 };
 
@@ -43,7 +43,9 @@ console.log(me.favThreeFoods.at(-1)); //Works to return last index position
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count.
 */
-
+console.log(`Current shoe count 'me.shoeCount':`, me.shoeCount);
+me.shoeCount += 1;
+console.log(`Updated shoe count 'me.shoeCount':`, me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -51,3 +53,5 @@ console.log(me.favThreeFoods.at(-1)); //Works to return last index position
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'opalescent muck';
+console.log(`Logging 'me.favoriteColor':`, me.favoriteColor);
