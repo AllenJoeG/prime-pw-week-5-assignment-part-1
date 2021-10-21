@@ -18,6 +18,9 @@ const me = {
 };
 
 console.log('A little about me:', me);
+//Alternative I discovered talking through an issue with Kelsey!
+console.log(`A little about me: ${JSON.stringify(me)}`);
+//Loses the console logged definition of the data types in the object.
 
 /* 2. Accessing object properties.
   - Create a variable called fullName
